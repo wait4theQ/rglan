@@ -208,10 +208,11 @@
   box-shadow: 2px 2px 15px #082238;
   position: fixed;
   right: 1vh;
-  top: 20vh;
+  top: 15vh;
   min-width: 200px;
-  max-width: 300px;
+  max-width: 220px;
   z-index: 10000;
+  
 }
 
 .aboutus-section h2 {
@@ -224,7 +225,7 @@
 
 .aboutus-section p {
   color: #ffffff;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   line-height: 0.9;
   text-align: center;
   font-weight: normal;
@@ -238,7 +239,7 @@
   color: #ff5500;
   text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6), 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para destacar o texto */
   font-family: "Bebas Neue", sans-serif;
-  font-size: 60px; /* Aumentar o tamanho da fonte */
+  font-size: 40px; /* Aumentar o tamanho da fonte */
   letter-spacing: 1px;
   margin-top: 5px;
   transition: color 0.3s ease, text-shadow 0.3s ease; /* Transição suave para hover */
@@ -251,7 +252,7 @@
 
 .aboutus-text h2 {
   color: #f1f0ee; /* Cor laranja para destaque */
-  font-size: 1.5rem; /* Tamanho da fonte ajustado */
+  font-size: 1rem; /* Tamanho da fonte ajustado */
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -265,7 +266,7 @@
   list-style: square;
   text-align: start;
   color: #ffffff;
-  font-size: 1.2rem;
+  font-size: 1rem;
   line-height: 1;
   font-weight: normal;
 }
