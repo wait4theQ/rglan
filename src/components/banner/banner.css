@@ -167,7 +167,7 @@
 }
 
 .corretor-section h2 {
-  font-size: 45px; /* Tamanho da fonte do título */
+  font-size: 40px; /* Tamanho da fonte do título */
   /*margin: 20px; !* Espaçamento abaixo do título *!*/
   color: #d15519;
   font-family: "Bebas Neue", sans-serif;
@@ -176,7 +176,8 @@
   margin: 5px;
   flex-direction: column;
   align-items: start;
-  width: 60%;
+  width: 50%;
+  margin-top: 35px;
 }
 
 .corretor-section p {
@@ -188,7 +189,7 @@
   color: #133855;
   margin: 0;
   align-self: start;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .creci-tti {
@@ -205,6 +206,7 @@
 
 .corretor-section2 {
   width: 50%;
+  
 }
 
 .corretor-section2 p {
