@@ -6,7 +6,6 @@
   height: 100vh;
   background-color: #e3e2e2;
 }
-
 .whatsapp-icon {
   display: inline-flex;
   align-items: center;
@@ -29,6 +28,31 @@
 }
 
 .whatsapp-icon:hover {
+  background: linear-gradient(to bottom, #d15519, #ddcc6e);
+}
+.whatsapp-icon1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, #39be11, #4fb809);
+  color: white;
+  border: none;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 2px 2px 3px #18181d;
+  transition: background 0.3s ease;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.whatsapp-icon1 svg {
+  width: 40px;  /* Ajuste este valor para o tamanho desejado */
+  height: 40px; /* Ajuste este valor para o tamanho desejado */
+}
+
+.whatsapp-icon1:hover {
   background: linear-gradient(to bottom, #d15519, #ddcc6e);
 }
 
@@ -132,6 +156,14 @@
   margin: auto;
   margin-left: 100px;
   padding-top: 20px;
+}
+.corretor-section b {
+  align-items: center;
+  width: 100%;
+  padding-bottom: 0px;
+  font-size: 24px;
+  color: #d15519;
+
 }
 
 .corretor-section h2 {

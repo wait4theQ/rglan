@@ -61,6 +61,8 @@ function Banner() {
             {/*<a href="/saiba-mais" className="saiba-mais-button">*/}
             {/*		Saiba mais*/}
             {/*</a>*/}
+            
+            <div className="corretor-section2">
             <a
             href="https://api.whatsapp.com/send/?phone=5511970753810&text=Olá!"
             className="whatsapp-icon1"
@@ -69,7 +71,6 @@ function Banner() {
           >
             <FaWhatsapp size={24} /> {/* Tamanho do ícone */}
           </a>
-            <div className="corretor-section2">
               {/*<p>
                 Somos uma empresa parceira/autorizada de vendas do
                 <b> INSTITUTO MONITOR</b>. Compre com segurança e pague o MENOR
