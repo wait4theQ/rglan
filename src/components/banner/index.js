@@ -56,27 +56,27 @@ function Banner() {
               ✔️ Aulas 100% online e provas presenciais no Polo de sua cidade
             </p>
             <br/>
+            <b>Entre em contato diretamente com a corretora Rita Leite!</b>
 
             {/*<a href="/saiba-mais" className="saiba-mais-button">*/}
             {/*		Saiba mais*/}
             {/*</a>*/}
-            <button
-              className="matricule-se-button"
-              onClick={() =>
-                (window.location.href =
-                  "https://api.whatsapp.com/send/?phone=5511970753810&text=Olá!")
-              }
-            >
-              Entre em contato
-            </button>
+            <a
+            href="https://api.whatsapp.com/send/?phone=5511970753810&text=Olá!"
+            className="whatsapp-icon1"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaWhatsapp size={24} /> {/* Tamanho do ícone */}
+          </a>
             <div className="corretor-section2">
-              <p>
+              {/*<p>
                 Somos uma empresa parceira/autorizada de vendas do
                 <b> INSTITUTO MONITOR</b>. Compre com segurança e pague o MENOR
                 PREÇO. Em caso de dúvidas confira nosso cadastro diretamente no
                 site oficial do Instituto Monitor através do telefone
                 Atendimento/vendas. Meu código de convênio é C1131C.
-              </p>
+              </p> */}
             </div>
           </div>
         </div>

@@ -135,7 +135,7 @@
 }
 
 .corretor-section h2 {
-  font-size: 35px; /* Tamanho da fonte do título */
+  font-size: 45px; /* Tamanho da fonte do título */
   /*margin: 20px; !* Espaçamento abaixo do título *!*/
   color: #d15519;
   font-family: "Bebas Neue", sans-serif;
@@ -144,7 +144,7 @@
   margin: 5px;
   flex-direction: column;
   align-items: start;
-  width: 50%;
+  width: 60%;
 }
 
 .corretor-section p {
@@ -156,6 +156,7 @@
   color: #133855;
   margin: 0;
   align-self: start;
+  padding-bottom: 20px;
 }
 
 .creci-tti {
@@ -342,7 +343,7 @@
     color: #d15519;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.6), 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para destacar o texto */
     font-family: "Bebas Neue", sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 3px;
     margin-top: 5px;
   }
@@ -394,20 +395,34 @@
   .aboutus-section {
     display: none !important;
   }
+  
   .corretor-section {
     padding: 0;
     /*display:flex;*/
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin: auto;
     margin-top: 130px;
     align-self: center;
   }
+  .corretor-section b {
+    align-items: center;
+    width: 100%;
+    padding-bottom: 0px;
+    font-size: 24px;
+    color: #d15519;
+  
+  }
+ 
   .creci-tti,
   .corretor-section p {
     align-items: center;
     width: 100%;
+    padding-bottom: 0px;
+    font-size: 25px;
+  
   }
+ 
   .creci-tti {
     font-size: 65px;
     text-align: center;
@@ -418,12 +433,13 @@
   }
   .corretor-section2 p {
     color: rgba(51, 51, 51, 0.81);
+    font-size: 30px;
   }
   .corretor-section2 {
     width: 100%;
   }
   .corretor-section h2 {
-    font-size: 20px; /* Tamanho da fonte do título */
+    font-size: 35px; /* Tamanho da fonte do título */
     /*margin: 20px; !* Espaçamento abaixo do título *!*/
     font-family: "Bebas Neue", sans-serif;
     display: flex;
@@ -433,6 +449,7 @@
     align-items: center;
     text-align: center;
     width: 100%;
+    margin-top: -55px;
   }
   .matricule-se-button {
     padding: 20px;
@@ -453,6 +470,32 @@
   }
   .sobre-o-curso-section {
     padding-right: 0;
+  }
+  .whatsapp-icon1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #39be11, #4fb809);
+    color: white;
+    border: none;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 2px 2px 3px #18181d;
+    transition: background 0.3s ease;
+    text-decoration: none;
+    margin-left:148px;
+    margin-top: 20px;
+  }
+  
+  .whatsapp-icon1 svg {
+    width: 40px;  /* Ajuste este valor para o tamanho desejado */
+    height: 40px; /* Ajuste este valor para o tamanho desejado */
+  }
+  
+  .whatsapp-icon1:hover {
+    background: linear-gradient(to bottom, #d15519, #ddcc6e);
   }
 }
 
